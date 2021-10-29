@@ -340,22 +340,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/player
+    - Assets
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 74
   m_LastFolders:
-  - Assets/player
+  - Assets
   m_LastFoldersGridSize: 74
-  m_LastProjectPath: C:\Users\andre\Documents\Sem1Proj
+  m_LastProjectPath: C:\Users\andre\Documents\GitHub\firstGame\Sem1Proj
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 40}
-    m_SelectedIDs: 46530000
-    m_LastClickedID: 21318
-    m_ExpandedIDs: 000000004652000050520000545200003e5300006e53000000ca9a3b
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: c4520000
+    m_LastClickedID: 21188
+    m_ExpandedIDs: 00000000c4520000c653000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -383,7 +383,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000046520000
+    m_ExpandedIDs: 00000000c4520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -505,9 +505,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: c2a0ffff
-      m_LastClickedID: -24382
-      m_ExpandedIDs: c2a0ffff38a3ffff52a7ffffa4d6ffff12e6ffff54fbffff
+      m_SelectedIDs: 
+      m_LastClickedID: 0
+      m_ExpandedIDs: 54fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -618,11 +618,11 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: -0.08103962, y: 0.6991117, z: -0.08026513, w: -0.70585704}
     speed: 2
-    m_Value: {x: -0.08115988, y: 0.6980517, z: -0.08014344, w: -0.7069045}
+    m_Value: {x: -0.08103962, y: 0.6991117, z: -0.08026513, w: -0.70585704}
   m_Size:
     m_Target: 3.0073948
     speed: 2
-    m_Value: 2.7073948
+    m_Value: 3.0073948
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -693,10 +693,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -368.4
-    m_HBaseRangeMax: 368.4
-    m_VBaseRangeMin: -160
-    m_VBaseRangeMax: 160
+    m_HBaseRangeMin: -460.5
+    m_HBaseRangeMax: 460.5
+    m_VBaseRangeMin: -210.5
+    m_VBaseRangeMax: 210.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -713,11 +713,11 @@ MonoBehaviour:
     m_DrawArea:
       serializedVersion: 2
       x: 0
-      y: 21
+      y: 0
       width: 921
-      height: 400
+      height: 421
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 460.5, y: 200}
+    m_Translation: {x: 460.5, y: 210.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
@@ -725,12 +725,12 @@ MonoBehaviour:
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
       x: -460.5
-      y: -200
+      y: -210.5
       width: 921
-      height: 400
+      height: 421
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 1151.25, y: 526.25}
+  m_LastWindowPixelSize: {x: 921, y: 421}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
