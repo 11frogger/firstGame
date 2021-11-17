@@ -10,6 +10,7 @@ TagManager:
   - CLOCK
   - ENEMY
   - P1
+  - ENEMYT
   layers:
   - Default
   - TransparentFX

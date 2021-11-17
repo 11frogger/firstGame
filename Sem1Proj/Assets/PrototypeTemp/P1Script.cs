@@ -8,6 +8,7 @@ public class P1Script : MonoBehaviour
     public int terrainType = 0;
     public int hp = 3;
     float speed = 1;
+    float spdD = 50;
     public Rigidbody myRig;
     int time = 0;
     public int timeSaved = 0;
@@ -46,7 +47,7 @@ public class P1Script : MonoBehaviour
         {
 
             myRig.velocity = transform.forward * speed;
-            speed += z / 100;
+            speed += z / spdD;
             myRig.transform.Rotate(0, yAngle + x/3, 0, Space.Self);
         }
         if (terrainType > 1)
@@ -56,7 +57,7 @@ public class P1Script : MonoBehaviour
             //myRig.velocity = new Vector3(myRig.velocity.x + x,myRig.velocity.y,myRig.velocity.z + z).normalized * speed;
             
             myRig.velocity = transform.forward * speed;
-            speed += z/100;
+            speed += z/spdD;
             myRig.transform.Rotate(0, yAngle + x, 0, Space.Self);
 
             //myRig.rotation = new Vector3(0, yAngle + x, 0);
@@ -70,7 +71,7 @@ public class P1Script : MonoBehaviour
             endOfTrack("Fail: You Died");
         }
     }
-
+    
     void OnCollisionStay(Collision C)
     {
         if (C.gameObject.tag == "SNOWFLOOR")
@@ -91,7 +92,7 @@ public class P1Script : MonoBehaviour
     {
         terrainType = 0;
     }
-
+    
     
 
     public void endOfTrack(string t)

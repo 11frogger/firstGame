@@ -24,5 +24,9 @@ public class BoundaryScript : MonoBehaviour
             
             other.GetComponent<P1Script>().endOfTrack("Fail: You Fell");
         }
+        else
+        {
+            GameObject.Destroy(other.gameObject);
+        }
     }
 }

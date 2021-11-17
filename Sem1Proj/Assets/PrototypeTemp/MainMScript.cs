@@ -22,4 +22,19 @@ public class MainMScript : MonoBehaviour
         // start a new scene with new character and items
         SceneManager.LoadScene("PrototypeScene");
     }
+    public void onInstructionsButtonClick()
+    {
+        // start a new scene with new character and items
+        SceneManager.LoadScene("PrototypeScene");
+    }
+    public void onOptionsButtonClick()
+    {
+        // start a new scene with new character and items
+        SceneManager.LoadScene("PrototypeScene");
+    }
+    public void onCreditsButtonClick()
+    {
+        // start a new scene with new character and items
+        SceneManager.LoadScene("PrototypeScene");
+    }
 }
