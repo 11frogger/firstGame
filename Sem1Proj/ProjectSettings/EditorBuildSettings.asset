@@ -6,9 +6,24 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/PrototypeTemp/MenuScene.unity
+    path: Assets/levels/MenuScene.unity
     guid: 4a8d63be9b392674eb5531fd83ca7bfd
   - enabled: 1
     path: Assets/PrototypeTemp/PrototypeScene.unity
     guid: 2d6ed23a599d25b44a785170371b0d97
+  - enabled: 1
+    path: Assets/levels/Track1.unity
+    guid: ec07846662654e847abce5851a937c57
+  - enabled: 1
+    path: Assets/levels/Track2.unity
+    guid: a49e18016da55a54680542195571e66c
+  - enabled: 1
+    path: Assets/levels/Track3.unity
+    guid: 7fb85f46628c89f44a64f14bfa4d2cd8
+  - enabled: 1
+    path: Assets/levels/Track4.unity
+    guid: 922b7f37000bd4245abfdc0190041d10
+  - enabled: 1
+    path: Assets/levels/Track5.unity
+    guid: 9c75c2baa6ff9934baf14450d894decf
   m_configObjects: {}
